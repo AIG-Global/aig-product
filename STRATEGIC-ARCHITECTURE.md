@@ -39,10 +39,10 @@ Result: Diana orchestrated an entire environment
 ## The Architecture Stack
 
 ```
-LAYER 4: AIOS & NORTH STAR ONE
+LAYER 5: AIOS & NORTH STAR ONE
   └─ Future OS extensions for devices
 
-LAYER 3: CORE 10 APPLICATIONS
+LAYER 4: CORE 10 APPLICATIONS
   ├─ Diana
   ├─ Workspace
   ├─ Projects
@@ -53,6 +53,13 @@ LAYER 3: CORE 10 APPLICATIONS
   ├─ Marketplace
   ├─ Settings
   └─ Profile
+
+LAYER 3: MISSION ENGINE (NEW - THE DIFFERENTIATOR)
+  ├─ Intent Recognition (Is this a mission or a question?)
+  ├─ Mission Classification (Which of 5 missions matches?)
+  ├─ Mission Templates (5 polished mission blueprints)
+  ├─ Template Assembly (Pre-configured app combinations)
+  └─ Diana Mission Guidance (Phase-specific coaching)
 
 LAYER 2: ORCHESTRATION & CONTEXT
   ├─ Workspace Orchestrator (creates environments)
@@ -73,6 +80,8 @@ LAYER 1: PLATFORM SERVICES
   ├─ Security
   └─ Events
 ```
+
+**The Mission Engine is what makes AIGINVEST different from every other app.**
 
 ---
 
@@ -326,56 +335,56 @@ Product becomes:
 
 ---
 
-## Sprint 2-7 Timeline (Revised)
+## Sprint 2-7 Timeline (Revised with Mission Engine)
 
 ### Sprint 2: Foundation (2 weeks)
 **Tickets:**
 - AIG-101: Real AI (OpenAI)
 - AIG-102: Streaming (< 100ms)
 - AIG-103: Memory (long-term)
-- **AIG-105: Workspace Orchestrator** (new)
+- AIG-105: Workspace Orchestrator
+- **AIG-106: Mission Engine Foundation** (NEW - THE DIFFERENTIATOR)
 
-**Outcome:** Diana orchestrates environment, user can express intent
+**Outcome:** Diana understands missions and can suggest environments to assemble
 
-### Sprint 3: Projects & Docs (2 weeks)
+### Sprint 3: Mission Templates Part 1 (2 weeks)
 **Tickets:**
-- AIG-104: Project creation (via Diana)
-- AIG-106: Document creation + editing
-- AIG-107: AI-assisted writing
+- **AIG-107: Build a Startup Mission** (complete template)
+- **AIG-108: Learn Something Mission** (complete template)
+- **AIG-109: Manage My Business Mission** (complete template)
 
-**Outcome:** User can manage projects and documents via Diana
+**Outcome:** 3 of 5 mission templates live with full Diana guidance
 
-### Sprint 4: Tasks & Calendar (2 weeks)
+### Sprint 4: Mission Templates Part 2 (2 weeks)
 **Tickets:**
-- AIG-108: Task management + Kanban
-- AIG-109: Calendar sync + timeline
-- AIG-110: Knowledge base MVP
+- **AIG-110: Write a Book Mission** (complete template)
+- **AIG-111: Personal Productivity Mission** (complete template)
+- **AIG-112: Mission Progress Tracking** (cross-mission)
 
-**Outcome:** Complete Workspace core features
+**Outcome:** All 5 missions live, user sees progress through phases, Diana guides proactively
 
-### Sprint 5: Marketplace (2 weeks)
+### Sprint 5: Core 10 Depth (2 weeks)
 **Tickets:**
-- AIG-111: Marketplace infrastructure
-- AIG-112: First marketplace apps (3 integrations)
-- AIG-113: Creator revenue split
+- AIG-113: Document creation + editing (within missions)
+- AIG-114: AI-assisted writing (within missions)
 
-**Outcome:** Extensibility foundation built
+**Outcome:** User can edit documents and create content within mission context
 
-### Sprint 6: Depth (2 weeks)
+### Sprint 6: Intelligence Layer (2 weeks)
 **Tickets:**
-- AIG-114: Advanced memory + context awareness
-- AIG-115: Knowledge Graph enhancement (semantic links)
-- AIG-116: Diana proactive suggestions
+- AIG-115: Advanced memory + context awareness
+- AIG-116: Knowledge Graph enhancement (semantic links)
+- AIG-117: Diana proactive suggestions (mission-aware)
 
-**Outcome:** Diana feels proactive and helpful
+**Outcome:** Diana understands mission progress, suggests next steps
 
-### Sprint 7: Polish (2 weeks)
+### Sprint 7: Polish & Launch (2 weeks)
 **Tickets:**
-- AIG-117: Team collaboration features
-- AIG-118: Enterprise features (SAML, RBAC)
-- AIG-119: Performance optimization
+- AIG-118: Team collaboration features
+- AIG-119: Enterprise features (SAML, RBAC)
+- AIG-120: Performance optimization
 
-**Outcome:** Production-ready for public launch
+**Outcome:** Production-ready for public launch with 5 mission portfolio
 
 ---
 
@@ -386,47 +395,54 @@ Product becomes:
 - ✅ Streaming works
 - ✅ Memory persists
 - ✅ Workspace Orchestrator creates environment
-- ✅ User expresses one intent → complete workspace
-
-### End of Sprint 3
-- ✅ All Core 10 apps have basic functionality
-- ✅ Can create, read, update, delete
-- ✅ Real-time sync working
-- ✅ No placeholder features
+- ✅ Mission Engine recognizes intentions
+- ✅ Diana suggests 3 missions for user input
 
 ### End of Sprint 4
-- ✅ Marketplace foundation ready
-- ✅ First 3 marketplace apps published
-- ✅ Creators can earn
+- ✅ All 5 missions templates live and tested
+- ✅ Workspace assembles automatically per mission
+- ✅ Diana guides through mission phases
+- ✅ Progress tracking works
+- ✅ User can complete a full mission lifecycle
 
 ### End of Sprint 7
 - ✅ All Core 10 apps production-ready
-- ✅ Diana acts as true OS
+- ✅ 5 mission templates fully operational
+- ✅ Diana acts as mission orchestrator
 - ✅ Knowledge Graph connects all context
-- ✅ Ready for public launch
-- ✅ Can demo in 10 minutes and say "this is different"
+- ✅ Teams can collaborate within missions
+- ✅ Ready for public launch with mission portfolio
+- ✅ Can demo in 2 minutes: "What do you want to accomplish?" → Complete workspace
 
 ---
 
 ## The Competitive Position
 
 ### vs. ChatGPT
-**ChatGPT:** "I'll write you a document"  
-**Diana:** "I'll create your entire workspace"
+**ChatGPT:** "I'll answer your question"  
+**Diana:** "What would you like to accomplish? I'll assemble your entire workspace."
 
 ### vs. Slack
 **Slack:** "Messaging platform"  
-**Diana:** "Work orchestration OS"
+**Diana:** "Work orchestration via mission selection"
 
 ### vs. Notion
-**Notion:** "Notes + databases"  
-**Diana:** "AI-orchestrated workspace"
+**Notion:** "Pick a template manually"  
+**Diana:** "Tell me your mission, I'll assemble everything"
 
 ### vs. Asana/Monday
-**Asana:** "Task management"  
-**Diana:** "Express intent, Diana orchestrates everything"
+**Asana:** "Create a project manually"  
+**Diana:** "Express intent, I'll create entire mission environment"
 
-**AIGINVEST is different because Diana orchestrates intent into action.**
+### vs. AI-Only (Claude, ChatGPT+)
+**ChatGPT:** "I can help you think about it"  
+**Diana:** "I'll create your actual working environment"
+
+**AIGINVEST is different because of the Mission Engine.**
+
+Users don't browse apps. Users express outcomes. Diana assembles environments.
+
+That's the fundamental difference.
 
 ---
 
